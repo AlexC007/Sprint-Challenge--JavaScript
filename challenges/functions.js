@@ -42,7 +42,8 @@ function greeting (x, y, greeting){
 // Explanation:
 //nestedFunction is nested inside of myfunction, internal is an attribute in myFunction and in a sense so is
 // nestedFunction because the closure does not come until after nestedFunction making it able to use the other attribute
-//in myFunction
+//in myFunction, in other words the inner function still has the scope as the outer function and can therefore
+//acknowledge outside variables
 
 
 const external = "I'm outside the function";
